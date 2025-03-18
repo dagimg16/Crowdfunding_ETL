@@ -32,16 +32,16 @@ The project simulates a real-world scenario where data is collected from differe
 ## File Structure
 ```
 📂 Crowdfunding_ETL
-├── 📂 resources
-│   ├── crowdfunding.xlsx
-│   ├── contacts.xlsx
-│   ├── campaign.csv
-│   ├── category.csv
-│   ├── contacts.csv
-│   ├── subcategory.csv
-├── crowdfunding_ETL.ipynb
-├── crowdfunding_db_ERD.png
-├── crowdfunding_db_schema.sql
+├── 📂 resources                # Folder containing input and output data files
+│   ├── crowdfunding.xlsx        # Raw crowdfunding campaign data
+│   ├── contacts.xlsx            # Raw contacts data
+│   ├── campaign.csv             # Processed campaign data
+│   ├── category.csv             # Processed category data
+│   ├── contacts.csv             # Processed contacts data
+│   ├── subcategory.csv          # Processed subcategory data
+├── crowdfunding_ETL.ipynb       # Jupyter Notebook for ETL process
+├── crowdfunding_db_ERD.png      # Entity-Relationship Diagram
+├── crowdfunding_db_schema.sql   # PostgreSQL database schema
 ```
 
 ### Entity-Relationship Diagram
